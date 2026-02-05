@@ -1,0 +1,9 @@
+# Skills Library Code Owners
+
+# Default: Curator (user) reviews all changes
+* @Team588
+
+# Specific directory ownership
+/skills/ @Team588
+/playbooks/ @Team588
+/CONTRIBUTING.md @Team588

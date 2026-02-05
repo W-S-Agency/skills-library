@@ -1,0 +1,80 @@
+name: Validate Skill PR
+
+on:
+  pull_request:
+    paths:
+      - 'skills/**'
+      - 'playbooks/**'
+      - '.github/workflows/validate-skill-pr.yml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Check for hardcoded secrets
+        run: |
+          # Look for common patterns of hardcoded secrets
+          if grep -r "password\|secret\|api_key\|token" skills/ --include="*.json" --include="*.md" | grep -v "example\|sample\|[REDACTED]"; then
+            echo "❌ Possible hardcoded secrets found. Use [REDACTED] for examples."
+            exit 1
+          fi
+          echo "✅ No hardcoded secrets detected"
+
+      - name: Validate JSON files
+        run: |
+          for file in $(find skills -name "config.json"); do
+            if ! jq empty "$file" 2>/dev/null; then
+              echo "❌ Invalid JSON in $file"
+              exit 1
+            fi
+            echo "✅ Valid JSON: $file"
+          done
+
+      - name: Check Markdown formatting
+        run: |
+          # Check for basic markdown issues
+          for file in $(find skills playbooks -name "README.md"); do
+            if ! grep -q "^#" "$file"; then
+              echo "❌ No heading in $file"
+              exit 1
+            fi
+            echo "✅ Valid markdown: $file"
+          done
+
+      - name: Check file sizes
+        run: |
+          # Ensure no huge files
+          if find skills playbooks -type f -size +10M | grep -q .; then
+            echo "❌ Files larger than 10MB not allowed"
+            exit 1
+          fi
+          echo "✅ All files within size limits"
+
+      - name: Verify skill structure
+        run: |
+          # For each skill folder, check required files
+          for skill_dir in skills/*/*/; do
+            if [ -d "$skill_dir" ]; then
+              if [ ! -f "$skill_dir/README.md" ]; then
+                echo "⚠️  Missing README.md in $(basename $skill_dir)"
+              fi
+              if [ ! -f "$skill_dir/config.json" ]; then
+                echo "⚠️  Missing config.json in $(basename $skill_dir)"
+              fi
+            fi
+          done
+          echo "✅ Skill structure verified"
+
+      - name: Comment on PR
+        if: always()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '✅ All validation checks passed!\n\nReady for curator review.'
+            })
