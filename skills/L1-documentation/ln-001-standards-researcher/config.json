@@ -1,0 +1,59 @@
+{
+  "name": "ln-001-standards-researcher",
+  "version": "1.0",
+  "description": "Research industry standards and design patterns via MCP Reference documentation",
+  "category": "L1",
+  "tier": "foundation",
+  "type": "research",
+  "inputs": [
+    {
+      "name": "topic",
+      "type": "string",
+      "required": true,
+      "description": "What standards to research",
+      "example": "REST API Design Standards"
+    },
+    {
+      "name": "framework",
+      "type": "string",
+      "required": false,
+      "description": "Technology/framework context",
+      "example": ".NET"
+    },
+    {
+      "name": "scope",
+      "type": "string",
+      "required": false,
+      "description": "Research depth (quick/detailed/comprehensive)",
+      "example": "detailed"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "standards",
+      "type": "array",
+      "description": "List of relevant standards with details"
+    },
+    {
+      "name": "recommendations",
+      "type": "array",
+      "description": "Recommended approaches based on standards"
+    },
+    {
+      "name": "implementation_examples",
+      "type": "array",
+      "description": "Code examples for implementation"
+    },
+    {
+      "name": "risk_assessment",
+      "type": "object",
+      "description": "Risk levels for different options"
+    }
+  ],
+  "dependencies": [],
+  "performance": {
+    "typical_duration": "30s",
+    "max_duration": "120s"
+  },
+  "tags": ["research", "standards", "documentation", "architecture"]
+}
