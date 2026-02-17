@@ -19,7 +19,7 @@ Monitor your Claude Max usage with beautiful visual reports directly in the chat
 
 Usage data is stored locally in:
 ```
-~/.craft-agent/workspaces/my-workspace/skills/usage-monitor/usage-data.json
+~/.ws-workspace/workspaces/my-workspace/skills/usage-monitor/usage-data.json
 ```
 
 ### Data Structure
@@ -161,7 +161,7 @@ Date,Count,Cumulative
 2026-02-03,18,45
 ```
 
-Save to: `C:\Users\alexa\.craft-agent\workspaces\my-workspace\skills\usage-monitor\usage-history-export.csv`
+Save to: `C:\Users\alexa\.ws-workspace\workspaces\my-workspace\skills\usage-monitor\usage-history-export.csv`
 
 ## First Time Setup
 

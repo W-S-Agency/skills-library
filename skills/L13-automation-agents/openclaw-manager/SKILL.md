@@ -556,7 +556,7 @@ Error: MCP Bridge connection failed
 2. Проверьте AUTH_TOKEN в source config:
    ```bash
    # Должен быть валидный HMAC-SHA256 токен
-   cat ~/.craft-agent/workspaces/my-workspace/sources/openclaw/config.json
+   cat ~/.ws-workspace/workspaces/my-workspace/sources/openclaw/config.json
    ```
 
 3. Проверьте логи MCP bridge:

@@ -7,7 +7,7 @@ Quick start guide for testing cold email campaigns.
 ### 1. Preview Campaign
 
 ```bash
-cd C:\Users\alexa\.craft-agent\workspaces\my-workspace\skills\cold-email-campaigns
+cd C:\Users\alexa\.ws-workspace\workspaces\my-workspace\skills\cold-email-campaigns
 
 python scripts/campaign_builder.py \
     --template templates/b2b_saas_sequence.txt \

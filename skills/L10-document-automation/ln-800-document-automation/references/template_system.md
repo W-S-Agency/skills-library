@@ -9,7 +9,7 @@ Guide for reusable document templates across ln-800 document automation workers.
 ### Template Storage Structure
 
 ```
-C:\Users\alexa\.craft-agent\workspaces\my-workspace\skills\ln-800-document-automation\templates\
+C:\Users\alexa\.ws-workspace\workspaces\my-workspace\skills\ln-800-document-automation\templates\
 │
 ├── docx/                           # Word document templates
 │   ├── 2penguins_proposal.docx

@@ -12,7 +12,7 @@ alwaysAllow: ["Write", "Read", "Bash"]
 
 **КРИТИЧЕСКИ ВАЖНО:** Перед созданием заметки ВСЕГДА читай:
 ```
-C:\Users\alexa\.craft-agent\workspaces\my-workspace\AGENCY-MEMORY-FORMAT.md
+C:\Users\alexa\.ws-workspace\workspaces\my-workspace\AGENCY-MEMORY-FORMAT.md
 ```
 
 Это обеспечивает:

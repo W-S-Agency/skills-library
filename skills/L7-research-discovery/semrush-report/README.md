@@ -51,7 +51,7 @@
 ## 🔧 Технические детали
 
 ### Credentials
-Хранятся в: `~/.craft-agent/workspaces/my-workspace/config/semrush-credentials.json`
+Хранятся в: `~/.ws-workspace/workspaces/my-workspace/config/semrush-credentials.json`
 
 **⚠️ Readonly режим:**
 - ✅ Чтение SERP данных

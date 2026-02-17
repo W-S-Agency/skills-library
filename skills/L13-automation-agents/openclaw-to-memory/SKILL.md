@@ -576,7 +576,7 @@ Co-Authored-By: WS Workspace <noreply@wsagency.dev>
 ### Skill config (опционально)
 
 ```yaml
-# C:\Users\alexa\.craft-agent\workspaces\my-workspace\skills\openclaw-to-memory\config.yml
+# C:\Users\alexa\.ws-workspace\workspaces\my-workspace\skills\openclaw-to-memory\config.yml
 
 auto_sync: true           # Auto-sync с GitHub после создания
 auto_detect_type: true    # Автоматическое определение типа заметки

@@ -401,7 +401,7 @@ def apply_company_branding(doc, company: str):
 
 All company templates stored in:
 ```
-C:\Users\alexa\.craft-agent\workspaces\my-workspace\skills\ln-800-document-automation\templates\
+C:\Users\alexa\.ws-workspace\workspaces\my-workspace\skills\ln-800-document-automation\templates\
 │
 ├── 2penguins_proposal_template.docx
 ├── 2penguins_analytics_template.xlsx

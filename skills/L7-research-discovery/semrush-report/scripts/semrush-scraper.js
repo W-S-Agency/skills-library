@@ -121,7 +121,7 @@ async function scrapeSemrush() {
 
     // Load credentials
     const credentials = JSON.parse(
-      fs.readFileSync('C:\\Users\\alexa\\.craft-agent\\workspaces\\my-workspace\\config\\semrush-credentials.json', 'utf8')
+      fs.readFileSync('C:\\Users\\alexa\\.ws-workspace\\workspaces\\my-workspace\\config\\semrush-credentials.json', 'utf8')
     );
 
     console.log('\n' + '='.repeat(60));

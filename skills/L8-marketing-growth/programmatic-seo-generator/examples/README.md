@@ -7,7 +7,7 @@ This directory contains example data and templates for testing the programmatic 
 ### 1. Test Data Loader
 
 ```bash
-cd C:\Users\alexa\.craft-agent\workspaces\my-workspace\skills\programmatic-seo-generator
+cd C:\Users\alexa\.ws-workspace\workspaces\my-workspace\skills\programmatic-seo-generator
 
 python scripts/data_loader.py examples/sample_data.csv --validate
 ```
