@@ -3,7 +3,7 @@
 # Bulk skill documentation generator
 # Converts all 104 SKILL.md files to README.md + config.json
 
-WORKSPACE_SKILLS="C:/Users/alexa/.craft-agent/workspaces/my-workspace/skills"
+WORKSPACE_SKILLS="C:/Users/alexa/.ws-workspace/workspaces/my-workspace/skills"
 SKILLS_LIBRARY="C:/Users/alexa/skills-library/skills"
 
 echo "🔄 Generating documentation for all workspace skills..."

@@ -8,7 +8,7 @@ set -e
 
 # Configuration
 REPO_PATH="$HOME/skills-library"
-MEMORY_PATH="$HOME/.craft-agent"
+MEMORY_PATH="$HOME/.ws-workspace"
 TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
 LOG_FILE="$REPO_PATH/sync-log.md"
 

@@ -15,7 +15,7 @@ W-S-Agency/agency-memory (GitHub)
          ↓ (pull every 3 days)
 ~/agency-memory/ (local memory)
          ↓ (integrated)
-~/.craft-agent/global-memory.json (MCP Server)
+~/.ws-workspace/global-memory.json (MCP Server)
          ↓
 Craft Agent uses skills + insights
 ```
@@ -222,9 +222,9 @@ cat ~/agency-memory/sync-log.md      # Daily sync
 ```json
 {
   "memory_paths": {
-    "skills": "~/.craft-agent/skills-index-latest.md",
-    "insights": "~/.craft-agent/insights/",
-    "playbooks": "~/.craft-agent/playbooks/"
+    "skills": "~/.ws-workspace/skills-index-latest.md",
+    "insights": "~/.ws-workspace/insights/",
+    "playbooks": "~/.ws-workspace/playbooks/"
   },
   "sync_schedule": {
     "skills": "3-day",

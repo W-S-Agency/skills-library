@@ -301,8 +301,8 @@ export SKILL_TIMEOUT=120
 
 ### View Skill Execution Logs
 ```bash
-# All skills log to ~/.craft-agent/logs/
-tail -f ~/.craft-agent/logs/skill-execution.log
+# All skills log to ~/.ws-workspace/logs/
+tail -f ~/.ws-workspace/logs/skill-execution.log
 ```
 
 ### Common Log Patterns

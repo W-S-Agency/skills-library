@@ -2,7 +2,7 @@
 
 **Synchronization History**
 **Frequency:** Every 3 days at 09:00 UTC
-**Local Copy:** ~/.craft-agent/global-memory.json
+**Local Copy:** ~/.ws-workspace/global-memory.json
 **Integration:** Syncs with W&S Agency Memory System
 
 ---
@@ -114,7 +114,7 @@ cd ~/skills-library
 git pull origin main
 
 # Update local memory
-cp -r skills/* ~/.craft-agent/global-memory.json
+cp -r skills/* ~/.ws-workspace/global-memory.json
 
 # Verify sync
 git log --oneline -5
@@ -136,7 +136,7 @@ W-S-Agency/skills-library
   ~/agency-memory/
    (via Craft Agent)
            ↓
-  ~/.craft-agent/global-memory.json
+  ~/.ws-workspace/global-memory.json
 ```
 
 ### With Craft Agent
