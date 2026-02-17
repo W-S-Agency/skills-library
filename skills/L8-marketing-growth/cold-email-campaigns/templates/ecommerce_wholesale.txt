@@ -1,0 +1,79 @@
+Subject: Wholesale partnership opportunity for {{company}}
+
+Hi {{first_name}},
+
+I noticed {{company}} carries [related products]. I wanted to reach out about a potential wholesale partnership.
+
+We're [Your Company] and we manufacture premium [Your Products] for retailers across Germany.
+
+Our products are a great fit for {{industry}} stores like yours because:
+• High margins (40-50%)
+• Fast-moving inventory
+• Strong brand recognition
+
+Would you be interested in learning more about our wholesale program?
+
+Best,
+[Your Name]
+
+---
+
+Subject: Pricing & MOQ for {{company}}
+
+Hi {{first_name}},
+
+Wanted to follow up with more details about our wholesale pricing.
+
+**Wholesale Pricing:**
+• [Product 1]: €X per unit (retail: €Y)
+• [Product 2]: €X per unit (retail: €Y)
+• [Product 3]: €X per unit (retail: €Y)
+
+**Minimum Order:** €500 (typical first order: €800-1,200)
+**Payment Terms:** Net 30 for established accounts
+**Shipping:** Free delivery for orders over €500
+
+Would {{company}} be interested in placing a sample order to test the products?
+
+Best,
+[Your Name]
+
+---
+
+Subject: Free samples for {{company}}
+
+Hi {{first_name}},
+
+I'd love to send {{company}} a few free product samples so you can see the quality firsthand.
+
+All I need is:
+1. Shipping address
+2. Which products interest you most
+
+No obligation—just want to get our products in your hands.
+
+If you like what you see, we can discuss a wholesale order.
+
+Sound good?
+
+Best,
+[Your Name]
+
+---
+
+Subject: Last chance: Limited stock available
+
+Hi {{first_name}},
+
+Quick heads-up: We're running low on inventory for [Popular Product].
+
+If {{company}} is interested in stocking this for the upcoming season, I'd recommend placing an order soon.
+
+We're expecting to be out of stock by end of month, and next production run isn't until [Date].
+
+Let me know if you'd like to secure an order before we run out.
+
+Best,
+[Your Name]
+
+P.S. I can hold 50 units for {{company}} if you need time to decide.

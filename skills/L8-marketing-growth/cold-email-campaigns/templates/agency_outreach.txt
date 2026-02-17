@@ -1,0 +1,58 @@
+Subject: Idea for {{company}}'s [specific marketing channel]
+
+Hi {{first_name}},
+
+I was browsing {{company}}'s website and noticed [specific observation about their marketing].
+
+I had a quick idea that could potentially [specific improvement]. Happy to share it—no strings attached.
+
+We're [Your Agency] and we specialize in [Your Specialty] for {{industry}} companies.
+
+Would you be open to a 10-minute chat this week?
+
+Best,
+[Your Name]
+
+---
+
+Subject: Case study: How we helped [Similar Company] achieve [Result]
+
+Hi {{first_name}},
+
+I wanted to share a quick case study that might resonate with {{company}}.
+
+We recently worked with [Similar Company] (also in {{industry}}) to [specific project].
+
+Results after 3 months:
+• [Metric 1]: +X%
+• [Metric 2]: +Y%
+• [Metric 3]: Reduced by Z%
+
+Here's a link to the full case study: [Link]
+
+Would it make sense to explore how we could achieve similar results for {{company}}?
+
+Best,
+[Your Name]
+
+---
+
+Subject: Limited availability for new projects
+
+Hi {{first_name}},
+
+Quick heads-up: We're opening 2 spots for new clients in March.
+
+Based on {{company}}'s current [marketing/web/design] setup, I think we could deliver significant improvements in:
+1. [Area 1]
+2. [Area 2]
+3. [Area 3]
+
+If you're interested in discussing this, let me know ASAP.
+
+We typically book up 4-6 weeks in advance, so spots fill fast.
+
+Best,
+[Your Name]
+
+P.S. If timing doesn't work now, I can reach back out in Q2.

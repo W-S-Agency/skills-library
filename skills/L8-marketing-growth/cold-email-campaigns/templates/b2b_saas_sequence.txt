@@ -1,0 +1,105 @@
+Subject: Quick question about {{company}}'s [specific challenge]
+
+Hi {{first_name}},
+
+I came across {{company}} while researching companies in the {{industry}} space.
+
+Quick question: How are you currently handling [specific workflow/challenge]?
+
+Most teams we work with struggle with [pain point 1] and [pain point 2].
+
+We built [Your Product] to solve exactly this. Companies like [Competitor] use us to [specific outcome].
+
+Would it make sense to explore how we could help {{company}} achieve similar results?
+
+Best,
+[Your Name]
+
+---
+
+Subject: Re: {{company}} + case study
+
+Hi {{first_name}},
+
+I wanted to share a quick case study that might be relevant to {{company}}.
+
+[Competitor Company] was facing [similar challenge]. After implementing [Your Product], they achieved:
+• [Metric 1]: Improved by X%
+• [Metric 2]: Reduced by Y%
+• [Metric 3]: Increased by Z%
+
+The entire implementation took less than 2 weeks.
+
+Would you be open to a 15-minute call to discuss how we could deliver similar results for {{company}}?
+
+Here's my calendar: [Calendly Link]
+
+Best,
+[Your Name]
+
+---
+
+Subject: [Your Company] demo for {{company}}
+
+Hi {{first_name}},
+
+I know you're busy, so I'll keep this brief.
+
+I'd love to show you a quick 10-minute demo of how [Your Product] could help {{company}} [achieve specific goal].
+
+We have some time slots available this week:
+• Tuesday 10 AM
+• Wednesday 2 PM
+• Thursday 11 AM
+
+Just reply with what works best for you, and I'll send a calendar invite.
+
+Looking forward to connecting!
+
+Best,
+[Your Name]
+
+P.S. If timing isn't right, no worries—just let me know when would be better to reach back out.
+
+---
+
+Subject: Addressing a few common questions about [Your Product]
+
+Hi {{first_name}},
+
+I wanted to address a few questions I often hear from companies like {{company}}:
+
+**"How long does implementation take?"**
+Typically 1-2 weeks for full deployment. Most teams see results within the first month.
+
+**"What's the pricing?"**
+Plans start at [Price Range] depending on team size. Happy to customize based on {{company}}'s needs.
+
+**"Do you integrate with [Tool]?"**
+Yes! We have pre-built integrations with [List of Tools]. If {{company}} uses something else, we can build a custom integration.
+
+Still interested in exploring this? Let me know and we can hop on a quick call.
+
+Best,
+[Your Name]
+
+---
+
+Subject: Final note for {{first_name}} at {{company}}
+
+Hi {{first_name}},
+
+I know I've reached out a few times, so I'll make this my last email unless you'd like to connect.
+
+The reason I'm persistent: I genuinely believe [Your Product] could help {{company}} [achieve specific outcome].
+
+We recently onboarded [Recent Client] and they're already seeing [impressive result].
+
+If you're interested, I'm here. If not, no hard feelings—I won't follow up again.
+
+Either way, wishing {{company}} all the best!
+
+Best,
+[Your Name]
+
+P.S. If there's a better person at {{company}} to discuss this with, I'd appreciate a referral. Thanks!

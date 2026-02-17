@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{meta_title}} | Topholz24</title>
+    <meta name="description" content="{{meta_description}}">
+    <meta name="keywords" content="{{keywords}}">
+    <link rel="canonical" href="{{base_url}}/{{url_slug}}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="product">
+    <meta property="og:url" content="{{base_url}}/{{url_slug}}">
+    <meta property="og:title" content="{{meta_title}}">
+    <meta property="og:description" content="{{meta_description}}">
+    {% if image_url %}<meta property="og:image" content="{{base_url}}{{image_url}}">{% endif %}
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "{{title}}",
+        "description": "{{description}}",
+        "image": "{{base_url}}{{image_url}}",
+        "brand": {
+            "@type": "Brand",
+            "name": "Topholz24"
+        },
+        "offers": {
+            "@type": "Offer",
+            "url": "{{base_url}}/{{url_slug}}",
+            "priceCurrency": "EUR",
+            "price": "{{price}}",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+                "@type": "Organization",
+                "name": "Topholz24"
+            }
+        }
+    }
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        .breadcrumbs {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .breadcrumbs a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #222;
+        }
+        .product-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 30px;
+        }
+        .product-image {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .product-info {
+            padding: 20px 0;
+        }
+        .price {
+            font-size: 2em;
+            font-weight: bold;
+            color: #d32f2f;
+            margin: 20px 0;
+        }
+        .description {
+            margin: 20px 0;
+            line-height: 1.8;
+        }
+        .category-badge {
+            display: inline-block;
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin: 10px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #4caf50;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .related-products {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 1px solid #ddd;
+        }
+        .related-products h2 {
+            margin-bottom: 20px;
+        }
+        @media (max-width: 768px) {
+            .product-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Startseite</a> ›
+        <a href="/{{category|lower}}">{{category}}</a> ›
+        <strong>{{title}}</strong>
+    </nav>
+
+    <!-- Product Header -->
+    <h1>{{title}}</h1>
+    <span class="category-badge">{{category}}</span>
+
+    <!-- Product Container -->
+    <div class="product-container">
+        <!-- Product Image -->
+        <div>
+            {% if image_url %}
+            <img src="{{image_url}}" alt="{{title}} - Holzprodukt von Topholz24" class="product-image">
+            {% else %}
+            <img src="/images/placeholder.jpg" alt="{{title}} - Holzprodukt von Topholz24" class="product-image">
+            {% endif %}
+        </div>
+
+        <!-- Product Info -->
+        <div class="product-info">
+            <div class="price">€{{price}}</div>
+
+            <div class="description">
+                <p>{{description}}</p>
+
+                {% if features %}
+                <h3>Produktmerkmale:</h3>
+                <ul>
+                    {% for feature in features.split(',') %}
+                    <li>{{feature.strip()}}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
+                {% if material %}
+                <p><strong>Material:</strong> {{material}}</p>
+                {% endif %}
+
+                {% if dimensions %}
+                <p><strong>Maße:</strong> {{dimensions}}</p>
+                {% endif %}
+            </div>
+
+            <a href="/kontakt?product={{url_slug}}" class="cta-button">Jetzt anfragen</a>
+        </div>
+    </div>
+
+    <!-- Related Products -->
+    <section class="related-products">
+        <h2>Ähnliche Produkte</h2>
+        <p>Entdecken Sie weitere Produkte aus der Kategorie <a href="/{{category|lower}}">{{category}}</a>.</p>
+
+        <p>Interessieren Sie sich für <a href="/holzarten">verschiedene Holzarten</a> oder
+        <a href="/verwendung">Verwendungsmöglichkeiten</a>? Besuchen Sie unsere Ratgeber-Seiten.</p>
+    </section>
+
+    <!-- Footer (simplified) -->
+    <footer style="margin-top: 60px; padding-top: 20px; border-top: 1px solid #ddd; text-align: center; color: #666;">
+        <p>&copy; 2026 Topholz24 - Premium Holzprodukte aus Deutschland</p>
+        <p>
+            <a href="/impressum">Impressum</a> |
+            <a href="/datenschutz">Datenschutz</a> |
+            <a href="/agb">AGB</a>
+        </p>
+    </footer>
+</body>
+</html>

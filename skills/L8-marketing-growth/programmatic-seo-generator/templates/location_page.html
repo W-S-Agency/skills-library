@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{meta_title}} | Topholz24</title>
+    <meta name="description" content="{{meta_description}}">
+    <meta name="keywords" content="{{keywords}}">
+    <link rel="canonical" href="{{base_url}}/{{url_slug}}">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{base_url}}/{{url_slug}}">
+    <meta property="og:title" content="{{meta_title}}">
+    <meta property="og:description" content="{{meta_description}}">
+
+    <!-- Schema.org Local Business -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Topholz24 - {{city}}",
+        "description": "{{description}}",
+        "url": "{{base_url}}/{{url_slug}}",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "{{city}}",
+            "addressRegion": "{{region|default('Deutschland')}}",
+            "addressCountry": "DE"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "{{city}}"
+        }
+    }
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        .breadcrumbs {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .breadcrumbs a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #222;
+        }
+        .location-intro {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 40px;
+        }
+        .service-areas {
+            background: #f5f5f5;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 40px 0;
+        }
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .benefit-card {
+            padding: 20px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .benefit-card h3 {
+            color: #1976d2;
+            margin-top: 0;
+        }
+        .cta-section {
+            background: #1976d2;
+            color: white;
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        .cta-section a {
+            display: inline-block;
+            background: white;
+            color: #1976d2;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .map-placeholder {
+            background: #e0e0e0;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            margin: 30px 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Startseite</a> ›
+        <a href="/standorte">Standorte</a> ›
+        <strong>{{city}}</strong>
+    </nav>
+
+    <!-- Location Header -->
+    <h1>Holzprodukte in {{city}}</h1>
+
+    <div class="location-intro">
+        <p>{{description}}</p>
+
+        <p>Topholz24 liefert premium Holzprodukte direkt nach <strong>{{city}}</strong>.
+        Egal ob Sie Möbel, Terrassendielen oder Zaunelemente suchen - wir bieten
+        eine große Auswahl an hochwertigen Holzprodukten für Ihr Zuhause in {{city}}.</p>
+    </div>
+
+    <!-- Service Areas -->
+    <section class="service-areas">
+        <h2>Liefergebiete in und um {{city}}</h2>
+        <p>Wir liefern in folgende Stadtteile und Umgebung:</p>
+        <p>
+            {% if districts %}
+                {{districts}}
+            {% else %}
+                Alle Stadtteile von {{city}} und umliegende Gemeinden im Umkreis von 50 km.
+            {% endif %}
+        </p>
+    </section>
+
+    <!-- Benefits Grid -->
+    <div class="benefits-grid">
+        <div class="benefit-card">
+            <h3>🚚 Schnelle Lieferung</h3>
+            <p>Lieferung nach {{city}} innerhalb von 3-5 Werktagen. Express-Versand auf Anfrage verfügbar.</p>
+        </div>
+
+        <div class="benefit-card">
+            <h3>⭐ Beste Qualität</h3>
+            <p>Premium Holzprodukte aus nachhaltiger Forstwirtschaft. Zertifiziert und geprüft.</p>
+        </div>
+
+        <div class="benefit-card">
+            <h3>💰 Faire Preise</h3>
+            <p>Transparente Preisgestaltung ohne versteckte Kosten. Kostenloser Versand ab €500.</p>
+        </div>
+
+        <div class="benefit-card">
+            <h3>🛠️ Beratung vor Ort</h3>
+            <p>Persönliche Beratung für Kunden in {{city}}. Vereinbaren Sie einen Termin mit unseren Experten.</p>
+        </div>
+    </div>
+
+    <!-- Map Placeholder -->
+    <div class="map-placeholder">
+        <p>🗺️ Karte: Liefergebiet {{city}}<br>(Google Maps Einbindung)</p>
+    </div>
+
+    <!-- SEO Content -->
+    <section style="margin-top: 60px;">
+        <h2>Warum Holzprodukte von Topholz24 in {{city}}?</h2>
+
+        <p>{{city}} ist bekannt für seine {{city_characteristics|default('schöne Architektur und grüne Umgebung')}}.
+        Holzprodukte fügen sich perfekt in das Stadtbild ein und bieten nachhaltige Lösungen für
+        Ihr Zuhause oder Ihr Gewerbeprojekt.</p>
+
+        <h3>Beliebte Holzprodukte in {{city}}</h3>
+        <ul>
+            <li><strong>Terrassendielen</strong> - Perfekt für Balkone und Terrassen in {{city}}</li>
+            <li><strong>Zaunelemente</strong> - Sichtschutz und Gartengestaltung</li>
+            <li><strong>Gartenmöbel</strong> - Hochwertige Outdoor-Möbel aus Massivholz</li>
+            <li><strong>Holzfassaden</strong> - Moderne Fassadengestaltung für Häuser in {{city}}</li>
+        </ul>
+
+        <h3>Referenzprojekte in {{city}}</h3>
+        <p>Wir haben bereits zahlreiche Projekte in {{city}} erfolgreich umgesetzt.
+        Von privaten Terrassen über Gewerbefassaden bis hin zu öffentlichen Parkanlagen -
+        unsere Holzprodukte verschönern {{city}}.</p>
+
+        <h3>Kontakt für Kunden in {{city}}</h3>
+        <p>Haben Sie Fragen zu unseren Produkten oder möchten Sie ein individuelles Angebot?
+        Kontaktieren Sie unser Team speziell für Anfragen aus {{city}}:</p>
+        <ul>
+            <li>📞 Telefon: +49 (0) 123 456 7890</li>
+            <li>📧 Email: {{city|lower}}@topholz24.de</li>
+            <li>💬 WhatsApp: +49 (0) 123 456 7890</li>
+        </ul>
+    </section>
+
+    <!-- CTA Section -->
+    <div class="cta-section">
+        <h2>Jetzt Beratungstermin in {{city}} vereinbaren</h2>
+        <p>Lassen Sie sich von unseren Holz-Experten beraten und finden Sie das perfekte Produkt für Ihr Projekt.</p>
+        <a href="/kontakt?city={{city}}">Kostenlos beraten lassen</a>
+    </div>
+
+    <!-- Nearby Cities -->
+    <section style="margin-top: 60px;">
+        <h2>Weitere Standorte in der Nähe</h2>
+        <p>Wir liefern auch in folgende Städte:</p>
+        <p>
+            {% if nearby_cities %}
+                {% for nearby_city in nearby_cities.split(',') %}
+                    <a href="/{{nearby_city.strip()|lower}}">{{nearby_city.strip()}}</a>{% if not loop.last %} | {% endif %}
+                {% endfor %}
+            {% else %}
+                <a href="/berlin">Berlin</a> |
+                <a href="/hamburg">Hamburg</a> |
+                <a href="/muenchen">München</a> |
+                <a href="/koeln">Köln</a>
+            {% endif %}
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer style="margin-top: 60px; padding-top: 20px; border-top: 1px solid #ddd; text-align: center; color: #666;">
+        <p>&copy; 2026 Topholz24 - Premium Holzprodukte für {{city}} und Umgebung</p>
+        <p>
+            <a href="/impressum">Impressum</a> |
+            <a href="/datenschutz">Datenschutz</a> |
+            <a href="/agb">AGB</a>
+        </p>
+    </footer>
+</body>
+</html>

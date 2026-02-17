@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{meta_title}} | Topholz24</title>
+    <meta name="description" content="{{meta_description}}">
+    <meta name="keywords" content="{{keywords}}">
+    <link rel="canonical" href="{{base_url}}/{{url_slug}}">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{base_url}}/{{url_slug}}">
+    <meta property="og:title" content="{{meta_title}}">
+    <meta property="og:description" content="{{meta_description}}">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "{{category_name}}",
+        "description": "{{description}}",
+        "url": "{{base_url}}/{{url_slug}}"
+    }
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        .breadcrumbs {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .breadcrumbs a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #222;
+        }
+        .category-intro {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 40px;
+            color: #555;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            transition: box-shadow 0.3s;
+        }
+        .product-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .product-card h3 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .product-card .price {
+            font-size: 1.3em;
+            color: #d32f2f;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .product-card a {
+            display: inline-block;
+            background: #1976d2;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .filters {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+        .filters h3 {
+            margin-top: 0;
+        }
+        @media (max-width: 768px) {
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Startseite</a> ›
+        <strong>{{category_name}}</strong>
+    </nav>
+
+    <!-- Category Header -->
+    <h1>{{category_name}}</h1>
+
+    <div class="category-intro">
+        <p>{{description}}</p>
+
+        {% if product_count %}
+        <p><strong>{{product_count}} Produkte</strong> in dieser Kategorie verfügbar.</p>
+        {% endif %}
+    </div>
+
+    <!-- Filters (placeholder) -->
+    <div class="filters">
+        <h3>Filter</h3>
+        <p>
+            <strong>Sortieren nach:</strong>
+            <a href="?sort=price-asc">Preis aufsteigend</a> |
+            <a href="?sort=price-desc">Preis absteigend</a> |
+            <a href="?sort=name">Name</a>
+        </p>
+    </div>
+
+    <!-- Product Grid (placeholder - in real implementation, loop through products) -->
+    <div class="product-grid">
+        <!-- Example product cards - replace with actual product data -->
+        <div class="product-card">
+            <img src="/images/placeholder.jpg" alt="Produktbild">
+            <h3>Beispielprodukt 1</h3>
+            <p class="price">€299.99</p>
+            <a href="/produkt-1">Details ansehen</a>
+        </div>
+
+        <div class="product-card">
+            <img src="/images/placeholder.jpg" alt="Produktbild">
+            <h3>Beispielprodukt 2</h3>
+            <p class="price">€199.99</p>
+            <a href="/produkt-2">Details ansehen</a>
+        </div>
+
+        <div class="product-card">
+            <img src="/images/placeholder.jpg" alt="Produktbild">
+            <h3>Beispielprodukt 3</h3>
+            <p class="price">€399.99</p>
+            <a href="/produkt-3">Details ansehen</a>
+        </div>
+    </div>
+
+    <!-- SEO Content Section -->
+    <section style="margin-top: 60px; padding-top: 40px; border-top: 1px solid #ddd;">
+        <h2>Alles über {{category_name}}</h2>
+
+        <p>{{seo_content|default('Hier kommt SEO-optimierter Text über die Kategorie. Mindestens 300 Wörter für gutes Ranking.')}}</p>
+
+        <h3>Warum {{category_name}} von Topholz24?</h3>
+        <ul>
+            <li>Premium Qualität aus nachhaltiger Forstwirtschaft</li>
+            <li>Große Auswahl an Holzarten und Designs</li>
+            <li>Schnelle Lieferung in ganz Deutschland</li>
+            <li>Persönliche Beratung vom Experten-Team</li>
+        </ul>
+
+        <h3>Häufig gestellte Fragen zu {{category_name}}</h3>
+        <p><strong>Wie pflege ich {{category_name}}?</strong><br>
+        Regelmäßige Pflege mit geeigneten Holzölen erhält die Schönheit und Langlebigkeit.</p>
+
+        <p><strong>Welche Holzart ist am besten für {{category_name}}?</strong><br>
+        Das hängt von Ihren individuellen Anforderungen ab. Kontaktieren Sie uns für eine kostenlose Beratung.</p>
+    </section>
+
+    <!-- Related Categories -->
+    <section style="margin-top: 60px;">
+        <h2>Verwandte Kategorien</h2>
+        <p>
+            <a href="/moebel">Möbel</a> |
+            <a href="/terrassendielen">Terrassendielen</a> |
+            <a href="/zaunelemente">Zaunelemente</a> |
+            <a href="/gartenmoebel">Gartenmöbel</a>
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer style="margin-top: 60px; padding-top: 20px; border-top: 1px solid #ddd; text-align: center; color: #666;">
+        <p>&copy; 2026 Topholz24 - Premium Holzprodukte aus Deutschland</p>
+        <p>
+            <a href="/impressum">Impressum</a> |
+            <a href="/datenschutz">Datenschutz</a> |
+            <a href="/agb">AGB</a>
+        </p>
+    </footer>
+</body>
+</html>

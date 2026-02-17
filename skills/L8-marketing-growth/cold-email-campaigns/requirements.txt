@@ -1,0 +1,21 @@
+# Cold Email Campaigns - Python Dependencies
+
+# Template engine
+jinja2==3.1.3
+
+# Data processing
+pandas==2.2.0
+
+# HTTP requests (for API integrations)
+requests==2.31.0
+
+# Optional: Email sending (if not using ln-852-email-automation)
+# smtplib (built-in)
+
+# Optional: Google Workspace integration
+# google-api-python-client==2.115.0
+# google-auth==2.27.0
+
+# Optional: Analytics visualization
+# matplotlib==3.8.2
+# plotly==5.18.0

@@ -1,0 +1,18 @@
+# Programmatic SEO Generator - Python Dependencies
+
+# Template engine
+jinja2==3.1.3
+
+# Data processing
+pandas==2.2.0
+
+# HTML parsing and validation
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# Optional: Google Sheets integration (requires google-workspace source)
+# google-api-python-client==2.115.0
+# google-auth==2.27.0
+
+# Optional: Airtable integration
+# pyairtable==2.3.0
