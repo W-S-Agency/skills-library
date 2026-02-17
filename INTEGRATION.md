@@ -59,8 +59,8 @@ Each skill insight in agency-memory links back to skills-library:
 # Insight: Redis Caching Pattern
 
 Related Skills:
-- [ln-650-performance-auditor](../../skills-library/skills/L5-quality-testing/ln-650-persistence-performance-auditor/)
-- [ln-651-query-efficiency-auditor](../../skills-library/skills/L5-quality-testing/ln-651-query-efficiency-auditor/)
+- [ln-650-performance-auditor](skills/L5-quality-testing/ln-650-persistence-performance-auditor/)
+- [ln-651-query-efficiency-auditor](skills/L5-quality-testing/ln-651-query-efficiency-auditor/)
 
 Use these skills to implement pattern.
 ```

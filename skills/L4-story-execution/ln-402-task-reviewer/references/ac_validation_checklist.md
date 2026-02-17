@@ -11,7 +11,7 @@ Criteria for validating task implementation against Story Acceptance Criteria.
 
 **Check:** Implementation covers ALL AC scenarios from Story
 
-**Reference:** [ln-310-story-validator/references/structural_validation.md](../../ln-310-story-validator/references/structural_validation.md) criterion #4 (lines 40-70)
+**Reference:** [ln-310-story-validator/references/structural_validation.md](../../../L3-task-management/ln-310-story-validator/references/structural_validation.md) criterion #4 (lines 40-70)
 
 **Quick Check:**
 - ✅ Happy Path (1-2 AC) - main success scenarios implemented
@@ -27,7 +27,7 @@ Criteria for validating task implementation against Story Acceptance Criteria.
 
 **Check:** Implementation matches EXACT AC requirements (HTTP codes, timing, messages)
 
-**Reference:** [ln-310-story-validator/references/structural_validation.md](../../ln-310-story-validator/references/structural_validation.md) criterion #4 (lines 71-95)
+**Reference:** [ln-310-story-validator/references/structural_validation.md](../../../L3-task-management/ln-310-story-validator/references/structural_validation.md) criterion #4 (lines 71-95)
 
 **Quick Check:**
 - ✅ HTTP codes match AC (200, 201, 400, 401, 403, 404, 500)
@@ -51,7 +51,7 @@ AC: "Given invalid token, When validate, Then 401 error + 'Invalid token'"
 
 **Check:** Task N does NOT depend on Tasks N+1, N+2 (sequential order)
 
-**Reference:** [ln-310-story-validator/references/dependency_validation.md](../../ln-310-story-validator/references/dependency_validation.md) criterion #19 (lines 53-100)
+**Reference:** [ln-310-story-validator/references/dependency_validation.md](../../../L3-task-management/ln-310-story-validator/references/dependency_validation.md) criterion #19 (lines 53-100)
 
 **Quick Check:**
 - ✅ Task uses ONLY previous Tasks (1 to N-1)
@@ -72,7 +72,7 @@ AC: "Given invalid token, When validate, Then 401 error + 'Invalid token'"
 
 **Check:** Task creates ONLY tables mentioned in Story scope (incremental schema)
 
-**Reference:** [ln-310-story-validator/references/workflow_validation.md](../../ln-310-story-validator/references/workflow_validation.md) criterion #9 (lines 85-103)
+**Reference:** [ln-310-story-validator/references/workflow_validation.md](../../../L3-task-management/ln-310-story-validator/references/workflow_validation.md) criterion #9 (lines 85-103)
 
 **Quick Check:**
 - ✅ Story "User Registration" → Task creates Users table ONLY
