@@ -14,14 +14,14 @@ param(
 )
 
 $SKILLS_REPO = "https://github.com/W-S-Agency/skills-library.git"
-$WORKSPACE_PATH = "$env:USERPROFILE\.craft-agent\workspaces\$Workspace\skills"
+$WORKSPACE_PATH = "$env:USERPROFILE\.ws-workspace\workspaces\$Workspace\skills"
 $TEMP_DIR = "$env:TEMP\skills-library-install"
 
 # Check workspace exists
 if (-not (Test-Path $WORKSPACE_PATH)) {
     Write-Error "Workspace '$Workspace' not found at: $WORKSPACE_PATH"
     Write-Host "Available workspaces:"
-    Get-ChildItem "$env:USERPROFILE\.craft-agent\workspaces" -Directory | ForEach-Object { Write-Host "  - $($_.Name)" }
+    Get-ChildItem "$env:USERPROFILE\.ws-workspace\workspaces" -Directory | ForEach-Object { Write-Host "  - $($_.Name)" }
     exit 1
 }
 
