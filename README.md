@@ -1,14 +1,14 @@
 # 🎯 Skills Library - W&S Agency
 
-**Version:** 1.0
-**Last Updated:** 2026-02-06
-**Total Skills:** 131 (95 DevOps/Engineering + 25 Marketing + 3 Research + 3 Platform + 5 Cross-platform)
+**Version:** 2.0
+**Last Updated:** 2026-02-17
+**Total Skills:** 209
 
 ---
 
 ## 📚 What is Skills Library?
 
-Comprehensive catalog of **all 131 Craft Agent skills** organized by functional categories (L1-L9). Each skill includes:
+Comprehensive catalog of **all 209 WS Workspace skills** organized by functional categories (L1-L13). Each skill includes:
 - ✅ **Purpose**: What the skill does
 - ✅ **When to use**: Real-world scenarios
 - ✅ **Inputs/Outputs**: Data flow
@@ -18,7 +18,7 @@ Comprehensive catalog of **all 131 Craft Agent skills** organized by functional 
 
 ---
 
-## 🗂️ Organization (L1-L9 Framework)
+## 🗂️ Organization (L1-L13 Framework)
 
 ### Development Pipeline
 | Level | Category | Count | Purpose |
@@ -27,11 +27,15 @@ Comprehensive catalog of **all 131 Craft Agent skills** organized by functional 
 | **L2** | Scope & Decomposition | 7 | Break down requirements into stories |
 | **L3** | Task Management | 4 | Create implementation tasks |
 | **L4** | Story Execution | 5 | Execute tasks end-to-end |
-| **L5** | Quality & Testing | 56 | Quality gates & audits |
-| **L6** | DevOps & Bootstrap | 43 | Setup, CI/CD, security, infrastructure |
-| **L7** | Research & Discovery | 3 | SEO & project analysis |
-| **L8** | Marketing & Growth | 25 | Marketing campaigns & analytics |
-| **L9** | Platform Integration | 3 | GitHub, Vercel, IDE config |
+| **L5** | Quality & Testing | 34 | Quality gates & audits |
+| **L6** | DevOps & Bootstrap | 32 | Setup, CI/CD, security, infrastructure |
+| **L7** | Research & Discovery | 5 | SEO & project analysis |
+| **L8** | Marketing, Growth & Soft Skills | 76 | Marketing, content, analytics, soft skills |
+| **L9** | Platform & Project Management | 8 | GitHub, Vercel, IDE, project management |
+| **L10** | Document Automation | 10 | Document generation & templates |
+| **L11** | Dev Tools | 8 | Developer tooling & utilities |
+| **L12** | Memory & Knowledge | 4 | Knowledge management & memory |
+| **L13** | Automation Agents | 3 | OpenClaw, usage monitoring |
 
 ---
 
@@ -40,7 +44,7 @@ Comprehensive catalog of **all 131 Craft Agent skills** organized by functional 
 ```
 skills-library/
 ├── README.md (this file)
-├── SKILLS-INDEX.md → Full index of all 131 skills
+├── SKILLS-INDEX.md → Full index of all 209 skills
 ├── SKILLS-MATRIX.md → Decision matrix (when to use which)
 │
 ├── skills/
@@ -48,19 +52,25 @@ skills-library/
 │   ├── L2-scope-decomposition/ (7 skills)
 │   ├── L3-task-management/ (4 skills)
 │   ├── L4-story-execution/ (5 skills)
-│   ├── L5-quality-testing/ (56 skills)
-│   ├── L6-devops-bootstrap/ (43 skills)
+│   ├── L5-quality-testing/ (34 skills)
+│   ├── L6-devops-bootstrap/ (32 skills)
+│   ├── L7-research/ (2 skills)
 │   ├── L7-research-discovery/ (3 skills)
-│   ├── L8-marketing-growth/ (25 skills)
-│   └── L9-platform-integration/ (3 skills)
+│   ├── L8-marketing/ (30 skills)
+│   ├── L8-marketing-growth/ (34 skills)
+│   ├── L8-soft-skills/ (12 skills)
+│   ├── L8-website-strategy/
+│   ├── L9-platform/ (5 skills)
+│   ├── L9-project-management/ (3 skills)
+│   ├── L10-document-automation/ (10 skills)
+│   ├── L11-dev-tools/ (8 skills)
+│   ├── L12-memory-knowledge/ (4 skills)
+│   └── L13-automation-agents/ (3 skills)
 │
 ├── playbooks/
 │   ├── skill-selection-guide.md
 │   ├── skill-chaining.md
 │   └── skill-integration-workflow.md
-│
-├── templates/
-│   └── new-skill-template.md
 │
 ├── .github/
 │   ├── CODEOWNERS
@@ -81,14 +91,13 @@ skills-library/
 
 ### 2. Understand How to Use It
 **→ Go to `skills/L*/[skill-name]/`** for:
-- README.md (purpose, when to use, examples)
-- implementation-notes.md (how it works)
-- config.json (metadata)
+- SKILL.md (purpose, when to use, examples)
+- README.md (quick start, if available)
 
 ### 3. Chain Multiple Skills
 **→ Read [playbooks/skill-chaining.md](playbooks/skill-chaining.md)** to combine skills
 
-### 4. Integrate with Craft Agent
+### 4. Integrate with WS Workspace
 **→ Read [playbooks/skill-integration-workflow.md](playbooks/skill-integration-workflow.md)**
 
 ---
@@ -98,7 +107,7 @@ skills-library/
 Each skill folder follows this structure:
 ```
 skills/L*/[skill-name]/
-├── README.md
+├── SKILL.md (main skill definition)
 │   ├─ Purpose (what it does)
 │   ├─ When to Use (scenarios)
 │   ├─ Input Format
@@ -106,8 +115,9 @@ skills/L*/[skill-name]/
 │   ├─ Examples (real-world usage)
 │   ├─ Related Skills
 │   └─ Limitations
-├── config.json (metadata)
-└── implementation-notes.md (technical details)
+├── README.md (quick start, if available)
+├── references/ (additional docs, if any)
+└── scripts/ (automation scripts, if any)
 ```
 
 ---
@@ -185,7 +195,7 @@ Check [sync-log.md](sync-log.md) for sync history.
 
 | Resource | Purpose |
 |----------|---------|
-| [SKILLS-INDEX.md](SKILLS-INDEX.md) | Full index of all 131 skills |
+| [SKILLS-INDEX.md](SKILLS-INDEX.md) | Full index of all 209 skills |
 | [SKILLS-MATRIX.md](SKILLS-MATRIX.md) | Decision matrix (when to use which) |
 | [playbooks/skill-selection-guide.md](playbooks/skill-selection-guide.md) | How to pick right skill |
 | [playbooks/skill-chaining.md](playbooks/skill-chaining.md) | How to combine skills |
@@ -201,7 +211,7 @@ Check [sync-log.md](sync-log.md) for sync history.
 - ✅ Update playbooks based on real usage
 
 **Skill Providers:**
-- Phase 1: Craft Agent (auto-documents)
+- Phase 1: WS Workspace (auto-documents)
 - Phase 2: Team members (via PR workflow)
 
 ---
@@ -210,12 +220,10 @@ Check [sync-log.md](sync-log.md) for sync history.
 
 | Phase | Status | Timeline |
 |-------|--------|----------|
-| Phase 1: Create repo & structure | ✅ DONE | ~2 hours |
-| Phase 2: Document 131 skills | ✅ IN PROGRESS | ~8-10 hours |
-| Phase 3: Set up 3-day sync | ⏳ TODO | ~1 hour |
-| Phase 4: Integrate with memory | ⏳ TODO | ~1 hour |
-
-**Overall:** 12-14 hours total (started 2026-02-06 00:20 GMT+1)
+| Phase 1: Create repo & structure | ✅ DONE | |
+| Phase 2: Document 209 skills | ✅ DONE | |
+| Phase 3: Synchronization & integration | ✅ DONE | |
+| Phase 4: L8-L13 expansion | ✅ DONE | |
 
 ---
 
