@@ -1,0 +1,42 @@
+{
+  "name": "@ws-workspace/responsive-validator",
+  "version": "1.0.0",
+  "description": "Comprehensive responsive testing - multi-browser, WCAG accessibility, layout verification, CI/CD",
+  "main": "run.js",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "install-browsers": "playwright install --with-deps"
+  },
+  "keywords": [
+    "responsive",
+    "testing",
+    "playwright",
+    "accessibility",
+    "wcag",
+    "cross-browser",
+    "visual-regression"
+  ],
+  "author": "WS Workspace",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.58.0",
+    "@playwright/test": "^1.58.0",
+    "@axe-core/playwright": "^4.10.0",
+    "pixelmatch": "^6.0.0",
+    "pngjs": "^7.0.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.0.0",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
