@@ -1,12 +1,52 @@
 ---
 name: OpenClaw Manager
-description: Универсальное управление всеми OpenClaw агентами - создание задач, мониторинг статуса, управление сеансами
+description: Универсальное управление всеми OpenClaw агентами через WebSocket Gateway API — статус, сессии, чат, каналы, автоматизация
 icon: 🦞
+version: 2.0.0
+updated: 2026-02-23
 ---
 
 # OpenClaw Manager
 
 Универсальный skill для управления **ВСЕМИ** OpenClaw агентами через единый интерфейс.
+
+## 🎯 Поддерживаемые серверы
+
+**✅ BoAs (srv2)** - Простой MCP протокол
+- Server: `wss://001.srv2.it-reality.de/mcp-jsonrpc`
+- Protocol: `auth_challenge/response` (HMAC-SHA256)
+- Tools: 10 MCP tools (agent_status, session_list, task_create, etc.)
+- Instance: `#001`
+
+**✅ WS Bot (srv1)** - Full Gateway API v3
+- Server: `wss://001.srv1.it-reality.de/mcp-jsonrpc`
+- Protocol: Gateway Protocol v3 (Ed25519 signature + Origin header)
+- Methods: 86 Gateway API методов (agents.list, chat.send, cron.add, etc.)
+- Instance: `#002`
+
+## 🔌 Unified Protocol Bridge
+
+Skill автоматически определяет тип сервера и использует правильный протокол:
+
+**Для BoAs (srv2) - MCP Tools:**
+```javascript
+// Использует готовые MCP tools
+mcp__openclaw__agent_status()
+mcp__openclaw__session_list()
+mcp__openclaw__task_create({ title: "...", description: "..." })
+```
+
+**Для WS Bot (srv1) - Direct Gateway API:**
+```javascript
+// Прямые WebSocket вызовы к Gateway
+ws.send({ type: 'req', id: '...', method: 'health', params: {} })
+ws.send({ type: 'req', id: '...', method: 'sessions.list', params: {} })
+ws.send({ type: 'req', id: '...', method: 'chat.send', params: { message: "..." } })
+```
+
+**Результат:** Единый интерфейс для обоих серверов! 🎯
+
+---
 
 ## 🎯 Философия
 
@@ -556,7 +596,7 @@ Error: MCP Bridge connection failed
 2. Проверьте AUTH_TOKEN в source config:
    ```bash
    # Должен быть валидный HMAC-SHA256 токен
-   cat ~/.ws-workspace/workspaces/my-workspace/sources/openclaw/config.json
+   cat ~/.craft-agent/workspaces/my-workspace/sources/openclaw/config.json
    ```
 
 3. Проверьте логи MCP bridge:
