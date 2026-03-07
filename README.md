@@ -199,6 +199,7 @@ Check [sync-log.md](sync-log.md) for sync history.
 | [SKILLS-MATRIX.md](SKILLS-MATRIX.md) | Decision matrix (when to use which) |
 | [playbooks/skill-selection-guide.md](playbooks/skill-selection-guide.md) | How to pick right skill |
 | [playbooks/skill-chaining.md](playbooks/skill-chaining.md) | How to combine skills |
+| [UPSTREAM-SOURCES.md](UPSTREAM-SOURCES.md) | External sources tracking & sync |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Guidelines for team (Phase 2) |
 
 ---
