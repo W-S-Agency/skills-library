@@ -1,0 +1,3017 @@
+{
+  "total": 249,
+  "withFrontmatter": 241,
+  "withAuthor": 2,
+  "withSource": 0,
+  "external": [],
+  "internal": [
+    {
+      "path": "L1-documentation\\ln-001-standards-researcher\\README.md",
+      "name": "ln-001-standards-researcher",
+      "hasFrontmatter": false,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L1-documentation\\ln-001-standards-researcher\\SKILL.md",
+      "name": "ln-001-standards-researcher",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    },
+    {
+      "path": "L1-documentation\\ln-002-best-practices-researcher\\SKILL.md",
+      "name": "ln-002-best-practices-researcher",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L1-documentation\\ln-100-documents-pipeline\\SKILL.md",
+      "name": "ln-100-documents-pipeline",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based",
+        "original"
+      ]
+    },
+    {
+      "path": "L1-documentation\\ln-110-project-docs-coordinator\\SKILL.md",
+      "name": "ln-110-project-docs-coordinator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based"
+      ]
+    },
+    {
+      "path": "L1-documentation\\ln-111-root-docs-creator\\SKILL.md",
+      "name": "ln-111-root-docs-creator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L1-documentation\\ln-112-project-core-creator\\SKILL.md",
+      "name": "ln-112-project-core-creator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L1-documentation\\ln-113-backend-docs-creator\\SKILL.md",
+      "name": "ln-113-backend-docs-creator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L1-documentation\\ln-114-frontend-docs-creator\\SKILL.md",
+      "name": "ln-114-frontend-docs-creator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L1-documentation\\ln-115-devops-docs-creator\\SKILL.md",
+      "name": "ln-115-devops-docs-creator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author",
+        "based"
+      ]
+    },
+    {
+      "path": "L1-documentation\\ln-120-reference-docs-creator\\SKILL.md",
+      "name": "ln-120-reference-docs-creator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L1-documentation\\ln-130-tasks-docs-creator\\SKILL.md",
+      "name": "ln-130-tasks-docs-creator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L1-documentation\\ln-140-test-docs-creator\\SKILL.md",
+      "name": "ln-140-test-docs-creator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L1-documentation\\ln-150-presentation-creator\\SKILL.md",
+      "name": "ln-150-presentation-creator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L10-document-automation\\ln-800-document-automation\\SKILL.md",
+      "name": "ln-800-document-automation",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L10-document-automation\\ln-810-docx-generator\\SKILL.md",
+      "name": "ln-810-docx-generator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L10-document-automation\\ln-820-xlsx-reporter\\SKILL.md",
+      "name": "ln-820-xlsx-reporter",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L10-document-automation\\ln-830-pptx-builder\\SKILL.md",
+      "name": "ln-830-pptx-builder",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L10-document-automation\\ln-840-pdf-extractor\\SKILL.md",
+      "name": "ln-840-pdf-extractor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L10-document-automation\\ln-850-integration-helpers\\SKILL.md",
+      "name": "ln-850-integration-helpers",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L10-document-automation\\ln-851-sheets-sync\\SKILL.md",
+      "name": "ln-851-sheets-sync",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    },
+    {
+      "path": "L10-document-automation\\ln-852-email-automation\\SKILL.md",
+      "name": "ln-852-email-automation",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L10-document-automation\\ln-853-calendar-booking\\SKILL.md",
+      "name": "ln-853-calendar-booking",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L10-document-automation\\ln-854-notification-hub\\SKILL.md",
+      "name": "ln-854-notification-hub",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L11-dev-tools\\code-simplifier\\SKILL.md",
+      "name": "code-simplifier",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L11-dev-tools\\deploy-vercel\\SKILL.md",
+      "name": "deploy-vercel",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L11-dev-tools\\figma-handoff\\SKILL.md",
+      "name": "figma-handoff",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    },
+    {
+      "path": "L11-dev-tools\\frontend-design\\SKILL.md",
+      "name": "frontend-design",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L11-dev-tools\\github-workflow\\SKILL.md",
+      "name": "github-workflow",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L11-dev-tools\\linux-admin\\SKILL.md",
+      "name": "linux-admin",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L11-dev-tools\\ralph-loop\\SKILL.md",
+      "name": "ralph-loop",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L11-dev-tools\\security-guidance\\SKILL.md",
+      "name": "security-guidance",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L11-dev-tools\\superpowers\\SKILL.md",
+      "name": "superpowers",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L12-memory-knowledge\\data\\SKILL.md",
+      "name": "data",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L12-memory-knowledge\\enterprise-search\\SKILL.md",
+      "name": "enterprise-search",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    },
+    {
+      "path": "L12-memory-knowledge\\memory-export\\SKILL.md",
+      "name": "memory-export",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L12-memory-knowledge\\memory-search\\SKILL.md",
+      "name": "memory-search",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L12-memory-knowledge\\memory-sync\\SKILL.md",
+      "name": "memory-sync",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L12-memory-knowledge\\memory-write\\SKILL.md",
+      "name": "memory-write",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L13-automation-agents\\firecrawl\\SKILL.md",
+      "name": "firecrawl",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    },
+    {
+      "path": "L13-automation-agents\\openclaw-manager\\SKILL.md",
+      "name": "openclaw-manager",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L13-automation-agents\\openclaw-ops\\SKILL.md",
+      "name": "openclaw-ops",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based",
+        "upstream"
+      ]
+    },
+    {
+      "path": "L13-automation-agents\\openclaw-to-memory\\SKILL.md",
+      "name": "openclaw-to-memory",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    },
+    {
+      "path": "L13-automation-agents\\usage-monitor\\SKILL.md",
+      "name": "usage-monitor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L2-scope-decomposition\\ln-200-scope-decomposer\\SKILL.md",
+      "name": "ln-200-scope-decomposer",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L2-scope-decomposition\\ln-201-opportunity-discoverer\\SKILL.md",
+      "name": "ln-201-opportunity-discoverer",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "license"
+      ]
+    },
+    {
+      "path": "L2-scope-decomposition\\ln-210-epic-coordinator\\SKILL.md",
+      "name": "ln-210-epic-coordinator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based"
+      ]
+    },
+    {
+      "path": "L2-scope-decomposition\\ln-220-story-coordinator\\SKILL.md",
+      "name": "ln-220-story-coordinator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based",
+        "upstream"
+      ]
+    },
+    {
+      "path": "L2-scope-decomposition\\ln-221-story-creator\\SKILL.md",
+      "name": "ln-221-story-creator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L2-scope-decomposition\\ln-222-story-replanner\\SKILL.md",
+      "name": "ln-222-story-replanner",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L2-scope-decomposition\\ln-230-story-prioritizer\\SKILL.md",
+      "name": "ln-230-story-prioritizer",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L3-task-management\\ln-300-task-coordinator\\SKILL.md",
+      "name": "ln-300-task-coordinator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L3-task-management\\ln-301-task-creator\\SKILL.md",
+      "name": "ln-301-task-creator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L3-task-management\\ln-302-task-replanner\\SKILL.md",
+      "name": "ln-302-task-replanner",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L3-task-management\\ln-310-story-validator\\SKILL.md",
+      "name": "ln-310-story-validator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    },
+    {
+      "path": "L4-story-execution\\code-review\\SKILL.md",
+      "name": "code-review",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L4-story-execution\\commit-commands\\SKILL.md",
+      "name": "commit-commands",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author",
+        "based",
+        "original"
+      ]
+    },
+    {
+      "path": "L4-story-execution\\feature-dev\\SKILL.md",
+      "name": "feature-dev",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L4-story-execution\\ln-400-story-executor\\SKILL.md",
+      "name": "ln-400-story-executor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L4-story-execution\\ln-401-task-executor\\SKILL.md",
+      "name": "ln-401-task-executor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L4-story-execution\\ln-402-task-reviewer\\SKILL.md",
+      "name": "ln-402-task-reviewer",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L4-story-execution\\ln-403-task-rework\\SKILL.md",
+      "name": "ln-403-task-rework",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L4-story-execution\\ln-404-test-executor\\SKILL.md",
+      "name": "ln-404-test-executor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author",
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-assurance\\kritik\\SKILL.md",
+      "name": "kritik",
+      "hasFrontmatter": true,
+      "author": "Alexander Wirt (2Penguins)",
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    },
+    {
+      "path": "L5-quality-assurance\\site-audit\\SKILL.md",
+      "name": "site-audit",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-assurance\\SKILL.md",
+      "name": "L5-quality-assurance",
+      "hasFrontmatter": true,
+      "author": "Alexander Wirt (2Penguins)",
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-500-story-quality-gate\\SKILL.md",
+      "name": "ln-500-story-quality-gate",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-501-code-quality-checker\\SKILL.md",
+      "name": "ln-501-code-quality-checker",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-502-regression-checker\\SKILL.md",
+      "name": "ln-502-regression-checker",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-510-test-planner\\SKILL.md",
+      "name": "ln-510-test-planner",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-511-test-researcher\\SKILL.md",
+      "name": "ln-511-test-researcher",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-512-manual-tester\\SKILL.md",
+      "name": "ln-512-manual-tester",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-513-auto-test-planner\\SKILL.md",
+      "name": "ln-513-auto-test-planner",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-600-docs-auditor\\SKILL.md",
+      "name": "ln-600-docs-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-601-semantic-content-auditor\\SKILL.md",
+      "name": "ln-601-semantic-content-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L5-quality-testing\\ln-610-code-comments-auditor\\SKILL.md",
+      "name": "ln-610-code-comments-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-620-codebase-auditor\\SKILL.md",
+      "name": "ln-620-codebase-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-621-security-auditor\\SKILL.md",
+      "name": "ln-621-security-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-622-build-auditor\\SKILL.md",
+      "name": "ln-622-build-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-623-code-principles-auditor\\SKILL.md",
+      "name": "ln-623-code-principles-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-624-code-quality-auditor\\SKILL.md",
+      "name": "ln-624-code-quality-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-625-dependencies-auditor\\SKILL.md",
+      "name": "ln-625-dependencies-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-626-dead-code-auditor\\SKILL.md",
+      "name": "ln-626-dead-code-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L5-quality-testing\\ln-627-observability-auditor\\SKILL.md",
+      "name": "ln-627-observability-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L5-quality-testing\\ln-628-concurrency-auditor\\SKILL.md",
+      "name": "ln-628-concurrency-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-629-lifecycle-auditor\\SKILL.md",
+      "name": "ln-629-lifecycle-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-630-test-auditor\\SKILL.md",
+      "name": "ln-630-test-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-631-test-business-logic-auditor\\SKILL.md",
+      "name": "ln-631-test-business-logic-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L5-quality-testing\\ln-632-test-e2e-priority-auditor\\SKILL.md",
+      "name": "ln-632-test-e2e-priority-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-633-test-value-auditor\\SKILL.md",
+      "name": "ln-633-test-value-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-634-test-coverage-auditor\\SKILL.md",
+      "name": "ln-634-test-coverage-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-635-test-isolation-auditor\\SKILL.md",
+      "name": "ln-635-test-isolation-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L5-quality-testing\\ln-640-pattern-evolution-auditor\\SKILL.md",
+      "name": "ln-640-pattern-evolution-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L5-quality-testing\\ln-641-pattern-analyzer\\SKILL.md",
+      "name": "ln-641-pattern-analyzer",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L5-quality-testing\\ln-642-layer-boundary-auditor\\SKILL.md",
+      "name": "ln-642-layer-boundary-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-643-api-contract-auditor\\SKILL.md",
+      "name": "ln-643-api-contract-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-650-persistence-performance-auditor\\SKILL.md",
+      "name": "ln-650-persistence-performance-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-651-query-efficiency-auditor\\SKILL.md",
+      "name": "ln-651-query-efficiency-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-652-transaction-correctness-auditor\\SKILL.md",
+      "name": "ln-652-transaction-correctness-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\ln-653-runtime-performance-auditor\\SKILL.md",
+      "name": "ln-653-runtime-performance-auditor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "original"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\responsive-validator\\README.md",
+      "name": "responsive-validator",
+      "hasFrontmatter": false,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author",
+        "license"
+      ]
+    },
+    {
+      "path": "L5-quality-testing\\responsive-validator\\SKILL.md",
+      "name": "responsive-validator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-700-project-bootstrap\\SKILL.md",
+      "name": "ln-700-project-bootstrap",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-710-dependency-upgrader\\SKILL.md",
+      "name": "ln-710-dependency-upgrader",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-711-npm-upgrader\\SKILL.md",
+      "name": "ln-711-npm-upgrader",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-712-nuget-upgrader\\SKILL.md",
+      "name": "ln-712-nuget-upgrader",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-713-pip-upgrader\\SKILL.md",
+      "name": "ln-713-pip-upgrader",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-720-structure-migrator\\SKILL.md",
+      "name": "ln-720-structure-migrator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-721-frontend-restructure\\SKILL.md",
+      "name": "ln-721-frontend-restructure",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-722-backend-generator\\SKILL.md",
+      "name": "ln-722-backend-generator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-723-mockdata-migrator\\SKILL.md",
+      "name": "ln-723-mockdata-migrator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-724-replit-cleaner\\SKILL.md",
+      "name": "ln-724-replit-cleaner",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-730-devops-setup\\SKILL.md",
+      "name": "ln-730-devops-setup",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-731-docker-generator\\SKILL.md",
+      "name": "ln-731-docker-generator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-732-cicd-generator\\SKILL.md",
+      "name": "ln-732-cicd-generator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-733-env-configurator\\SKILL.md",
+      "name": "ln-733-env-configurator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-740-quality-setup\\SKILL.md",
+      "name": "ln-740-quality-setup",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-741-linter-configurator\\SKILL.md",
+      "name": "ln-741-linter-configurator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-742-precommit-setup\\SKILL.md",
+      "name": "ln-742-precommit-setup",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-743-test-infrastructure\\SKILL.md",
+      "name": "ln-743-test-infrastructure",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-750-commands-generator\\SKILL.md",
+      "name": "ln-750-commands-generator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-751-command-templates\\SKILL.md",
+      "name": "ln-751-command-templates",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-760-security-setup\\SKILL.md",
+      "name": "ln-760-security-setup",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-761-secret-scanner\\SKILL.md",
+      "name": "ln-761-secret-scanner",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "original"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-770-crosscutting-setup\\SKILL.md",
+      "name": "ln-770-crosscutting-setup",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-771-logging-configurator\\SKILL.md",
+      "name": "ln-771-logging-configurator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-772-error-handler-setup\\SKILL.md",
+      "name": "ln-772-error-handler-setup",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-773-cors-configurator\\SKILL.md",
+      "name": "ln-773-cors-configurator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-774-healthcheck-setup\\SKILL.md",
+      "name": "ln-774-healthcheck-setup",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-775-api-docs-generator\\SKILL.md",
+      "name": "ln-775-api-docs-generator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author",
+        "license"
+      ]
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-780-bootstrap-verifier\\SKILL.md",
+      "name": "ln-780-bootstrap-verifier",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-781-build-verifier\\SKILL.md",
+      "name": "ln-781-build-verifier",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-782-test-runner\\SKILL.md",
+      "name": "ln-782-test-runner",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L6-devops-bootstrap\\ln-783-container-launcher\\SKILL.md",
+      "name": "ln-783-container-launcher",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L7-research\\research\\SKILL.md",
+      "name": "research",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based",
+        "credit"
+      ]
+    },
+    {
+      "path": "L7-research\\semrush-report\\README.md",
+      "name": "semrush-report",
+      "hasFrontmatter": false,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L7-research\\semrush-report\\SKILL.md",
+      "name": "semrush-report",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L7-research\\sr\\SKILL.md",
+      "name": "sr",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L7-research-discovery\\analyze-project\\SKILL.md",
+      "name": "analyze-project",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L7-research-discovery\\semrush-report\\README.md",
+      "name": "semrush-report",
+      "hasFrontmatter": false,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L7-research-discovery\\semrush-report\\SKILL.md",
+      "name": "semrush-report",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    },
+    {
+      "path": "L7-research-discovery\\sr\\SKILL.md",
+      "name": "sr",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-marketing\\google-ads-analysis\\SKILL.md",
+      "name": "google-ads-analysis",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-marketing\\google-analytics\\SKILL.md",
+      "name": "google-analytics",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing\\google-marketing-suite\\google-ads-manager\\SKILL.md",
+      "name": "google-ads-manager",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing\\google-marketing-suite\\google-analytics\\SKILL.md",
+      "name": "google-analytics",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing\\google-marketing-suite\\google-tag-manager\\SKILL.md",
+      "name": "google-tag-manager",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-marketing\\google-marketing-suite\\README.md",
+      "name": "google-marketing-suite",
+      "hasFrontmatter": false,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based",
+        "credit",
+        "license"
+      ]
+    },
+    {
+      "path": "L8-marketing\\google-tag-manager\\SKILL.md",
+      "name": "google-tag-manager",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\analytics-reporting\\analytics-tracking\\SKILL.md",
+      "name": "analytics-tracking",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\analytics-reporting\\marketing-analytics\\SKILL.md",
+      "name": "marketing-analytics",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\analytics-reporting\\marketing-ideas\\SKILL.md",
+      "name": "marketing-ideas",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\content\\copy-editing\\SKILL.md",
+      "name": "copy-editing",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "credit",
+        "original"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\content\\copywriting\\SKILL.md",
+      "name": "copywriting",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\content\\keyword-research\\SKILL.md",
+      "name": "keyword-research",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\content\\programmatic-seo\\SKILL.md",
+      "name": "programmatic-seo",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based",
+        "original",
+        "license"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\content\\schema-markup\\SKILL.md",
+      "name": "schema-markup",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\content\\seo-audit\\SKILL.md",
+      "name": "seo-audit",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "original"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\content\\social-content\\SKILL.md",
+      "name": "social-content",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based",
+        "credit"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\funnel\\email-sequence\\SKILL.md",
+      "name": "email-sequence",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\funnel\\lead-generation\\SKILL.md",
+      "name": "lead-generation",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\funnel\\onboarding-cro\\SKILL.md",
+      "name": "onboarding-cro",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\funnel\\referral-program\\SKILL.md",
+      "name": "referral-program",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\funnel\\signup-flow-cro\\SKILL.md",
+      "name": "signup-flow-cro",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based",
+        "credit"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\performance-ads\\ab-test-setup\\SKILL.md",
+      "name": "ab-test-setup",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\performance-ads\\competitor-alternatives\\SKILL.md",
+      "name": "competitor-alternatives",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\performance-ads\\conversion-optimization\\SKILL.md",
+      "name": "conversion-optimization",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\performance-ads\\form-cro\\SKILL.md",
+      "name": "form-cro",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based",
+        "credit"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\performance-ads\\marketing-psychology\\SKILL.md",
+      "name": "marketing-psychology",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based",
+        "original"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\performance-ads\\page-cro\\SKILL.md",
+      "name": "page-cro",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\performance-ads\\paid-ads\\SKILL.md",
+      "name": "paid-ads",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\performance-ads\\paywall-upgrade-cro\\SKILL.md",
+      "name": "paywall-upgrade-cro",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\performance-ads\\popup-cro\\SKILL.md",
+      "name": "popup-cro",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\performance-ads\\social-media-strategy\\SKILL.md",
+      "name": "social-media-strategy",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\strategy\\content-strategy\\SKILL.md",
+      "name": "content-strategy",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based",
+        "original"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\strategy\\free-tool-strategy\\SKILL.md",
+      "name": "free-tool-strategy",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\strategy\\launch-strategy\\SKILL.md",
+      "name": "launch-strategy",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based",
+        "credit",
+        "original"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\strategy\\pricing-strategy\\SKILL.md",
+      "name": "pricing-strategy",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing\\marketing-bundle\\strategy\\product-marketing-context\\SKILL.md",
+      "name": "product-marketing-context",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing\\semrush-report\\README.md",
+      "name": "semrush-report",
+      "hasFrontmatter": false,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L8-marketing\\semrush-report\\SKILL.md",
+      "name": "semrush-report",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    },
+    {
+      "path": "L8-marketing\\sr\\SKILL.md",
+      "name": "sr",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\cold-email-campaigns\\examples\\README.md",
+      "name": "examples",
+      "hasFrontmatter": false,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\cold-email-campaigns\\SKILL.md",
+      "name": "cold-email-campaigns",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing\\SKILL.md",
+      "name": "marketing",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\analytics-reporting\\analytics-tracking\\SKILL.md",
+      "name": "analytics-tracking",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\analytics-reporting\\marketing-analytics\\SKILL.md",
+      "name": "marketing-analytics",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\analytics-reporting\\marketing-ideas\\SKILL.md",
+      "name": "marketing-ideas",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\content\\copy-editing\\SKILL.md",
+      "name": "copy-editing",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "credit",
+        "original"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\content\\copywriting\\SKILL.md",
+      "name": "copywriting",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\content\\keyword-research\\SKILL.md",
+      "name": "keyword-research",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\content\\programmatic-seo\\SKILL.md",
+      "name": "programmatic-seo",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based",
+        "original",
+        "license"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\content\\schema-markup\\SKILL.md",
+      "name": "schema-markup",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\content\\seo-audit\\SKILL.md",
+      "name": "seo-audit",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "original"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\content\\social-content\\SKILL.md",
+      "name": "social-content",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based",
+        "credit"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\funnel\\email-sequence\\SKILL.md",
+      "name": "email-sequence",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\funnel\\lead-generation\\SKILL.md",
+      "name": "lead-generation",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\funnel\\onboarding-cro\\SKILL.md",
+      "name": "onboarding-cro",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\funnel\\referral-program\\SKILL.md",
+      "name": "referral-program",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\funnel\\signup-flow-cro\\SKILL.md",
+      "name": "signup-flow-cro",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based",
+        "credit"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\performance-ads\\ab-test-setup\\SKILL.md",
+      "name": "ab-test-setup",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\performance-ads\\competitor-alternatives\\SKILL.md",
+      "name": "competitor-alternatives",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\performance-ads\\conversion-optimization\\SKILL.md",
+      "name": "conversion-optimization",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\performance-ads\\form-cro\\SKILL.md",
+      "name": "form-cro",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based",
+        "credit"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\performance-ads\\marketing-psychology\\SKILL.md",
+      "name": "marketing-psychology",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based",
+        "original"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\performance-ads\\page-cro\\SKILL.md",
+      "name": "page-cro",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\performance-ads\\paid-ads\\SKILL.md",
+      "name": "paid-ads",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\performance-ads\\paywall-upgrade-cro\\SKILL.md",
+      "name": "paywall-upgrade-cro",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\performance-ads\\popup-cro\\SKILL.md",
+      "name": "popup-cro",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\performance-ads\\social-media-strategy\\SKILL.md",
+      "name": "social-media-strategy",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\strategy\\content-strategy\\SKILL.md",
+      "name": "content-strategy",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based",
+        "original"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\strategy\\free-tool-strategy\\SKILL.md",
+      "name": "free-tool-strategy",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\strategy\\launch-strategy\\SKILL.md",
+      "name": "launch-strategy",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based",
+        "credit",
+        "original"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\strategy\\pricing-strategy\\SKILL.md",
+      "name": "pricing-strategy",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\marketing-bundle\\strategy\\product-marketing-context\\SKILL.md",
+      "name": "product-marketing-context",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\programmatic-seo-generator\\examples\\README.md",
+      "name": "examples",
+      "hasFrontmatter": false,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\programmatic-seo-generator\\SKILL.md",
+      "name": "programmatic-seo-generator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author",
+        "based",
+        "original"
+      ]
+    },
+    {
+      "path": "L8-marketing-growth\\sales\\SKILL.md",
+      "name": "sales",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-soft-skills\\customer-support\\SKILL.md",
+      "name": "customer-support",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-soft-skills\\finance\\SKILL.md",
+      "name": "finance",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based",
+        "credit"
+      ]
+    },
+    {
+      "path": "L8-soft-skills\\legal\\SKILL.md",
+      "name": "legal",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L8-soft-skills\\soft-skills-bundle\\communication\\brand-communication\\SKILL.md",
+      "name": "brand-communication",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-soft-skills\\soft-skills-bundle\\communication\\clear-writing\\SKILL.md",
+      "name": "clear-writing",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-soft-skills\\soft-skills-bundle\\communication\\feedback-helper\\SKILL.md",
+      "name": "feedback-helper",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-soft-skills\\soft-skills-bundle\\leadership-decision\\decision-framing\\SKILL.md",
+      "name": "decision-framing",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-soft-skills\\soft-skills-bundle\\leadership-decision\\preserving-productive-tensions\\SKILL.md",
+      "name": "preserving-productive-tensions",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-soft-skills\\soft-skills-bundle\\meetings-facilitation\\meeting-insights-analyzer\\SKILL.md",
+      "name": "meeting-insights-analyzer",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-soft-skills\\soft-skills-bundle\\meetings-facilitation\\retro-facilitator\\SKILL.md",
+      "name": "retro-facilitator",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-soft-skills\\soft-skills-bundle\\self-development\\learning-companion\\SKILL.md",
+      "name": "learning-companion",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-soft-skills\\soft-skills-bundle\\self-development\\memory-manager\\SKILL.md",
+      "name": "memory-manager",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-soft-skills\\soft-skills-bundle\\self-development\\memory-searcher\\SKILL.md",
+      "name": "memory-searcher",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-soft-skills\\soft-skills-bundle\\self-development\\persistent-memory-keeper\\SKILL.md",
+      "name": "persistent-memory-keeper",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L8-soft-skills\\soft-skills-bundle\\self-development\\reflection-journal\\SKILL.md",
+      "name": "reflection-journal",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L8-website-strategy\\wp-builder\\SKILL.md",
+      "name": "wp-builder",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    },
+    {
+      "path": "L8-website-strategy\\ws\\SKILL.md",
+      "name": "ws",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L9-platform\\claude-hud\\SKILL.md",
+      "name": "claude-hud",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source"
+      ]
+    },
+    {
+      "path": "L9-platform\\memory-export\\SKILL.md",
+      "name": "memory-export",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L9-platform\\memory-search\\SKILL.md",
+      "name": "memory-search",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L9-platform\\memory-sync\\SKILL.md",
+      "name": "memory-sync",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L9-platform\\memory-write\\SKILL.md",
+      "name": "memory-write",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "author"
+      ]
+    },
+    {
+      "path": "L9-platform\\safety-net\\SKILL.md",
+      "name": "safety-net",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L9-platform\\usage-monitor\\SKILL.md",
+      "name": "usage-monitor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "based"
+      ]
+    },
+    {
+      "path": "L9-platform\\voice-input\\SKILL.md",
+      "name": "voice-input",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L9-platform\\voice-output\\SKILL.md",
+      "name": "voice-output",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L9-project-management\\pcm\\SKILL.md",
+      "name": "pcm",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    },
+    {
+      "path": "L9-project-management\\pm\\SKILL.md",
+      "name": "pm",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L9-project-management\\productivity\\SKILL.md",
+      "name": "productivity",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": []
+    },
+    {
+      "path": "L9-project-management\\skill-advisor\\SKILL.md",
+      "name": "skill-advisor",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "based"
+      ]
+    },
+    {
+      "path": "L9-project-management\\wartung\\SKILL.md",
+      "name": "wartung",
+      "hasFrontmatter": true,
+      "author": null,
+      "source": null,
+      "license": null,
+      "adapted": false,
+      "keywords": [
+        "source",
+        "author"
+      ]
+    }
+  ]
+}
