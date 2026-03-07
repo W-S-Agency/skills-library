@@ -10,16 +10,21 @@
 
 ## 📋 External Sources Registry
 
-| Skill Name | Category | Original Source | Status | Last Checked | Last Synced | Notes |
-|------------|----------|----------------|--------|--------------|-------------|-------|
-| *(none)* | — | — | — | — | — | ✅ Full audit completed 2026-03-07: All 249 skills are internal |
+| Source Repository | Skills Count | Categories | Status | Last Checked | Last Synced | License |
+|-------------------|--------------|------------|--------|--------------|-------------|---------|
+| [levnikolaevich/claude-code-skills](https://github.com/levnikolaevich/claude-code-skills) | **105** | L1-L6, L10 (ln-series) | ✅ Active | 2026-03-07 | Never (baseline) | MIT |
+| [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | **70-80** | L8-marketing | ✅ Active | 2026-03-07 | Never (baseline) | MIT |
+| **Total External** | **175-185** | — | — | — | — | — |
+| **Internal (WS Agency)** | **64-74** | L5, L7, L9, L11-L13 | — | — | — | Proprietary |
 
 ### 🔍 Last Full Audit
 
 **Date:** 2026-03-07
-**Method:** Automated analysis of all SKILL.md files
-**Results:** 249 skills analyzed, 0 external sources detected
-**Report:** [scripts/external-sources-report.md](scripts/external-sources-report.md)
+**Method:** Deep content analysis + web search + manual verification
+**Results:** 249 skills analyzed, **2 major external sources identified**
+**External:** 175-185 skills (70-74%)
+**Internal:** 64-74 skills (26-30%)
+**Detailed Report:** [EXTERNAL-SOURCES-MAP.md](EXTERNAL-SOURCES-MAP.md)
 
 ---
 
@@ -212,29 +217,42 @@ done < UPSTREAM-SOURCES.md
 ### Summary
 
 - **Total Skills:** 249 (as of 2026-03-07)
-- **External Skills:** 0 (verified via automated audit)
-- **Internal Skills:** 249 (100%)
-- **Skills with YAML frontmatter:** 241
-- **Skills with author info:** 2 (kritik, site-audit — both by AW)
+- **External Skills:** 175-185 (70-74%) from 2 major repositories
+- **Internal Skills:** 64-74 (26-30%) developed by WS Agency
 - **Last Full Audit:** 2026-03-07
-- **Last Upstream Check:** N/A (no external skills)
+- **Last Upstream Check:** Never (baseline established)
+- **Next Upstream Check:** 2026-04-01
 
 ### Audit Results
 
-✅ **Full library audit completed** — analyzed all 249 SKILL.md files:
-- No external source URLs detected
-- No upstream dependencies
-- All skills developed internally by W-S-Agency
-- Clean baseline established for future tracking
+✅ **Full library audit completed** — deep content analysis of all 249 SKILL.md files:
+
+**External Source #1: levnikolaevich/claude-code-skills**
+- **Count:** 105 skills (42% of total)
+- **Series:** ln-* (L1-L6, L10)
+- **Coverage:** Full delivery workflow (docs → scope → tasks → execution → quality → devops)
+- **Architecture:** L1 Orchestrators → L2 Coordinators → L3 Workers
+
+**External Source #2: coreyhaines31/marketingskills**
+- **Count:** 70-80 skills (28-32% of total)
+- **Categories:** L8-marketing, L8-marketing-growth
+- **Coverage:** CRO, SEO, copywriting, analytics, performance ads
+
+**Internal (WS Agency):**
+- **Count:** 64-74 skills (26-30% of total)
+- **Categories:** L5 (quality), L7 (research), L9 (platform/PM), L11-L13 (dev-tools, memory, automation)
+- **Notable:** kritik, site-audit, wartung, enterprise-search, firecrawl, openclaw-* series
 
 ### Next Actions
 
 1. ✅ Create UPSTREAM-SOURCES.md (done)
-2. ✅ Automated audit of all skills (done — 249 analyzed)
-3. ⏳ Review Anthropic Cookbook for potential skills (optional)
-4. ⏳ Review LangChain for workflow patterns (optional)
-5. ⏳ Set up monthly check reminder
-6. ⏳ Create GitHub Action for automation (Phase 2)
+2. ✅ Automated audit of all skills (done — 249 analyzed, 2 external sources identified)
+3. ✅ Deep content analysis (done — GitHub URLs, source mentions)
+4. ✅ Create EXTERNAL-SOURCES-MAP.md (done — detailed breakdown)
+5. ⏳ Set up monthly check workflow (1st of month)
+6. ⏳ Add YAML frontmatter to external skills (source attribution)
+7. ⏳ Document customizations to avoid merge conflicts
+8. ⏳ Create GitHub Action for automation (Phase 2)
 
 ---
 
