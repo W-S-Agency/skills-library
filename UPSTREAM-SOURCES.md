@@ -3,7 +3,7 @@
 **Purpose:** Track skills sourced from external repositories to maintain up-to-date versions
 
 **Owner:** AW (Alexander Wirt)
-**Review Frequency:** Monthly (1st of each month)
+**Review Frequency:** Weekly (Every Monday at 09:00)
 **Last Reviewed:** 2026-03-07
 
 ---
@@ -75,7 +75,7 @@ When adding a skill from external source:
 
 ## 🔄 Synchronization Workflow
 
-### Monthly Review Process (1st of month)
+### Weekly Review Process (Every Monday 09:00)
 
 **Step 1: Check for Updates**
 ```bash
@@ -83,7 +83,7 @@ When adding a skill from external source:
 cd /tmp
 git clone <upstream-url> upstream-check
 cd upstream-check
-git log --since="30 days ago" --oneline
+git log --since="7 days ago" --oneline
 
 # If commits found → proceed to Step 2
 ```
@@ -167,7 +167,8 @@ Before adding a skill from external source:
 
 | Frequency | Action | Trigger |
 |-----------|--------|---------|
-| **Monthly** | Check all upstream sources for updates | 1st of month, 09:00 UTC |
+| **Weekly** | Check all upstream sources for updates | Every Monday, 09:00 CET |
+| **Monthly** | Dependencies audit | 1st of month, 10:00 CET |
 | **Quarterly** | Review trustworthiness of sources | 1st of Jan, Apr, Jul, Oct |
 | **Ad-hoc** | Security advisories | GitHub notifications |
 | **Yearly** | Evaluate: keep, deprecate, or replace | January |
@@ -183,7 +184,7 @@ Before adding a skill from external source:
 name: Check Upstream Sources
 on:
   schedule:
-    - cron: '0 9 1 * *'  # Monthly, 1st at 9am UTC
+    - cron: '0 9 * * 1'  # Weekly, Monday at 9am UTC
   workflow_dispatch:
 
 jobs:
@@ -193,7 +194,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Check upstream repos
         run: |
-          # Script to check each upstream source
+          # Script to check each upstream source (last 7 days)
           # Create issue if updates found
 ```
 
@@ -221,7 +222,7 @@ done < UPSTREAM-SOURCES.md
 - **Internal Skills:** 64-74 (26-30%) developed by WS Agency
 - **Last Full Audit:** 2026-03-07
 - **Last Upstream Check:** Never (baseline established)
-- **Next Upstream Check:** 2026-04-01
+- **Next Upstream Check:** 2026-03-10 (Monday)
 
 ### Audit Results
 
@@ -249,10 +250,11 @@ done < UPSTREAM-SOURCES.md
 2. ✅ Automated audit of all skills (done — 249 analyzed, 2 external sources identified)
 3. ✅ Deep content analysis (done — GitHub URLs, source mentions)
 4. ✅ Create EXTERNAL-SOURCES-MAP.md (done — detailed breakdown)
-5. ⏳ Set up monthly check workflow (1st of month)
-6. ⏳ Add YAML frontmatter to external skills (source attribution)
-7. ⏳ Document customizations to avoid merge conflicts
+5. ✅ Set up weekly check workflow (Every Monday) - see RECURRING-TASKS.md
+6. ✅ Document customizations system - see CUSTOMIZATIONS.md
+7. ⏳ Add YAML frontmatter to external skills (source attribution)
 8. ⏳ Create GitHub Action for automation (Phase 2)
+9. ⏳ Set up automated reminders (Google Calendar / Notion)
 
 ---
 
